@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dceef8;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container1 {
+    width: 350px;
+    padding: 40px;
+    background-color: pink;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.container1 h1,
+.container1 p {
+    text-align: center;
+}
+
+.foto {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px; /* kotak dengan sudut membulat */
+}
